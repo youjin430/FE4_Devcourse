@@ -217,4 +217,33 @@
 {
   //이넘 연습문제
   //1
+  enum Day {
+    MONDAY = 1,
+    TUESDAY,
+    WEDNESDAY,
+    THURSDAY,
+    FRIDAY,
+    SATURDAY,
+    SUNDAY,
+  }
+  function getDayName(day: Day): string {
+    switch (day) {
+      case Day.MONDAY:
+        return "MONDAY";
+      case Day.TUESDAY:
+        return "TUESDAY";
+      case Day.WEDNESDAY:
+        return "WEDNESDAY";
+      case Day.THURSDAY:
+        return "THURSDAY";
+      case Day.FRIDAY:
+        return "FRIDAY";
+      case Day.SATURDAY:
+        return "SATURDAY";
+      case Day.SUNDAY:
+        return "SUNDAY";
+      default:
+        return "Invalid day";
+    }
+  }
 }
