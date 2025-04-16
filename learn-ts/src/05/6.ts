@@ -68,6 +68,7 @@
       return this.value;
     }
   }
+
   const stringBox: Box<string> = new Box<string>("abc");
   console.log(stringBox.getValue());
 

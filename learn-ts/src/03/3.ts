@@ -1,8 +1,11 @@
 {
-  // 옵서녈 파라미터
+  // 옵셔널 파라미터
+  function printUserInfo(name: string): void;
+  function printUserInfo(name: string, age: number): void;
   function printUserInfo(name: string, age?: number): void {
-    if (name && age) console.log(`${name},${age}`);
+    if (name && age) console.log(`${name}, ${age}`);
     else console.log(`${name}`);
   }
-  printUserInfo("youjin");
+
+  printUserInfo("sucoding", 20);
 }

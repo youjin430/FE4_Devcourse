@@ -13,13 +13,21 @@
 // string, number, boolean, object, array, tuple, undefined, null, any, bigint
 
 {
-    let name: string = "sucoding";
-    let age: number = 20;
-    let bool: boolean = true;
-    let obj: object = {};
-    let arr: [] = [];
-    let sym: symbol = Symbol("A");
-    let und: undefined = undefined;
-    let nul: null | string = null;
-    let big: bigint = 100n;
+  let name: string = "sucoding";
+  let age: number = 20;
+  let bool: boolean = true;
+  let obj: object = {};
+  let arr: [] = [];
+  let sym: symbol = Symbol("A");
+  let und: undefined = undefined;
+  let nul: null | string = null;
+  let big: bigint = 100n;
+}
+
+{
+  // 코드 블럭 (중괄호)
+  let num: number = 10;
+
+  let numArr: [string, number] = ["A", 10];
+  numArr.push("A");
 }

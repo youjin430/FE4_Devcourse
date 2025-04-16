@@ -1,10 +1,15 @@
 .underline {
   text-decoration: underline;
 }
+<<<<<<< HEAD
 .greenyellow-color {
   color: greenyellow;
 }
 .title {
   color: pink;
   text-decoration: underline;
+=======
+.red-color {
+  color: red;
+>>>>>>> FE5_김기수
 }

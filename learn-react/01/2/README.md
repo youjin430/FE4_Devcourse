@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -52,3 +53,18 @@ export default tseslint.config({
   },
 })
 ```
+=======
+# 리액트 스타일링 방법
+
+## 전통적인 방법으로 스타일링 하는 방법
+
+## CSS-IN-JS로 스타일링을 하는 방법
+
+## Tailwind CSS로 스타일링을 하는 방법
+
+## 그외
+
+### 이미지를 렌더링
+
+### 폰트를 적용
+>>>>>>> FE5_김기수
