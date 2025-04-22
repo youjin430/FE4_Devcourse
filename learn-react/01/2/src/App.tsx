@@ -6,10 +6,7 @@ export default function App() {
     text-align: center;
     color: #bf4f74;
   `;
-<<<<<<< HEAD
-=======
 
->>>>>>> FE5_김기수
   return (
     <>
       <Title>App Component</Title>

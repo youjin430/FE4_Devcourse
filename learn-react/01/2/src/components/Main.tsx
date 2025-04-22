@@ -4,11 +4,7 @@ export default function Main() {
       <main>
         <section id="section1">
           <h2 className="title">소개</h2>
-<<<<<<< HEAD
-          <p>여기에 소개 내용을 작성하세요.</p>
-=======
           <p className="underline">여기에 소개 내용을 작성하세요.</p>
->>>>>>> FE5_김기수
         </section>
 
         <section id="section2">

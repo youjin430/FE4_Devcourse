@@ -23,12 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-<<<<<<< HEAD
-#custom ignore
-.env
-=======
 # custom ignore
 .env 
->>>>>>> FE5_김기수
 .env.*
 .package-lock.json

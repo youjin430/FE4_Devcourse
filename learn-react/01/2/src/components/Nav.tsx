@@ -5,11 +5,7 @@ export default function Nav() {
     <>
       <nav>
         <ul>
-<<<<<<< HEAD
-          <NavItem></NavItem>
-=======
           <NavItem />
->>>>>>> FE5_김기수
         </ul>
       </nav>
     </>
